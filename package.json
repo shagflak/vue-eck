@@ -1,7 +1,7 @@
 {
-  "name": "tacos",
+  "name": "vue-eck",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "A customized fork from the vue-cli webpack template",
   "author": "jcfigueroa <jc.figueroa.rb@hotmail.com>",
   "private": true,
   "scripts": {
