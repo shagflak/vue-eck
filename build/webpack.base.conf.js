@@ -8,12 +8,15 @@ function resolve (dir) {
 }
 
 module.exports = {
-  entry: {
-    app: './src/main.js'
+  entry: function(){
+    return [
+      'bootstrap-loader',
+      './src/main.js'
+    ]
   },
   output: {
     path: config.build.assetsRoot,
-    filename: '[name].js',
+    filename: 'app.js',
     publicPath: process.env.NODE_ENV === 'production'
       ? config.build.assetsPublicPath
       : config.dev.assetsPublicPath

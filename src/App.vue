@@ -12,8 +12,6 @@ export default {
 </script>
 
 <style lang="scss" >
-$icon-font-path: "../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
-@import '../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -21,7 +19,7 @@ $icon-font-path: "../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: $navbar-height;
+  margin-top: 60px;
 
   p {
     font-weight: bold;
